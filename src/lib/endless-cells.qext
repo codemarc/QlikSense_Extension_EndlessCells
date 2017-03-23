@@ -1,0 +1,16 @@
+{
+	"name": "Endless Cells",
+	"description": "Table in which every cell can be calculation",
+    "preview": "",
+	"icon": "list",
+	"type": "visualization",
+	"version": "0.1.0",
+	"author": "Stefan Stoichev (stefan.stoichev@gmail.com)",
+	"homepage": "https://sstoichev.eu",
+	"keywords": "qlik-sense, visualization. table, cells",
+	"license": "MIT",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
