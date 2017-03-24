@@ -1,10 +1,17 @@
 {
-	"name": "qliksense-extension-endlesscells",
-	"description": "Qlik Sense extension - table in which every cell can be calculation",
-	"version": "0.1.1",
-	"author": "Stefan Stoichev (stefan.stoichev@gmail.com)",
-	"homepage": "https://sstoichev.eu",
-	"keywords": "qlik-sense, visualization. table, cells",
-	"license": "MIT",
-	"repository": "https://github.com/countnazgul/QlikSense_Extension_EndlessCells"
+  "name": "qliksense-extension-endlesscells",
+  "description": "Qlik Sense extension - table in which every cell can be calculation",
+  "version": "0.1.1",
+  "author": "Stefan Stoichev (stefan.stoichev@gmail.com)",
+  "homepage": "https://sstoichev.eu",
+  "keywords": "qlik-sense, visualization. table, cells",
+  "license": "MIT",
+  "repository": "https://github.com/countnazgul/QlikSense_Extension_EndlessCells",
+  "dependencies": {
+    "verb-toc": "^0.2.9"
+  },
+  "verb": {
+    "toc": true,
+    "tasks": ["readme"]
+  }  
 }

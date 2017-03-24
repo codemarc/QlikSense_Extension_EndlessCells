@@ -1,0 +1,1 @@
+"Endless Cells" is a Qlik Sense extension that generates html table and allow the content of each cell to be QS expression or plain text. Also each cell can be customized individually using css.  

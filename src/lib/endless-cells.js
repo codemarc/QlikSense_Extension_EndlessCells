@@ -85,7 +85,7 @@ define(["qlik", "jquery", "text!./style.css"], function (qlik, $, cssContent) {
                     itemTitleRef: "label",
                     allowAdd: true,
                     allowRemove: true,
-                    addTranslation: "Add Alternative",
+                    addTranslation: "Add Cell",
                     items: {
                         label: {
                             type: "string",
