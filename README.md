@@ -16,7 +16,7 @@ This is very early version and not everything will work as expected!
 "Endless Cells" is a Qlik Sense extension that generates html table and allow the content of each cell to be QS expression or plain text. Also each cell can be customized individually using css.  
 
 ## Why
-It all started with [this](https://twitter.com/seebach/status/844492254144290816) Twitter status. And after this there was was a 'Hmmmmm' moment.
+It all started with [this](https://twitter.com/seebach/status/844492254144290816) Twitter status. And after this there was a 'Hmmmmm' moment.
 
 ## Cells
 Each cell have 5 options
@@ -25,7 +25,7 @@ Each cell have 5 options
 * Row - on which row the cell to be added
 * Column - on which column the cell to be added
 * Expression - if the text here starts with `=` it will be passed to QS engine for evaluation otherwise will be represented as plain text 
-* Styles - css formated string which will reflect this call only
+* Styles - css formated string which will reflect this cell only
 
 If the row/column is not present - it will be generated. For example - if there is no cells in the table and we specify `Row = 5 and Column = 6` then all the cells before this one will be generated and will be empty
 
@@ -35,7 +35,7 @@ Few global options (so far)
 * Table CSS - css that is applied on `<table>`
 * TR CSS - css that is applied on each `<tr>`
 * Empty Cell Content - default is space `&nbsp;`
-* Col width - comma separated list with numbers defining the `width` % for the available columns width. The sum of numbers in this list should be equal to 100
+* Col width - comma separated list with numbers defining the `width` % for the available columns. The sum of the numbers in this list should be equal to 100
 * Fixed width - strip the content of the cells to maintain the colums width
 * Wrap text when fixed - wrap the text of the content to maintain the width by increasing the cell height
 
