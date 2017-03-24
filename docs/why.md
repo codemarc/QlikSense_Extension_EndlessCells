@@ -1,1 +1,1 @@
-It all started with [this](https://twitter.com/seebach/status/844492254144290816) Twitter status. And after this there was was a 'Hmmmmm' moment.
+It all started with [this](https://twitter.com/seebach/status/844492254144290816) Twitter status. And after this there was a 'Hmmmmm' moment.
